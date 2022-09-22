@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hussein Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Hussein Kansoh</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contactMe" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h1 class="introName">
+            Hi I'm <bold> Hussein </bold>
+        </h1>
+        <p class="introJobTiltle">
+            I'm a Software Developer
+        </p>
+        <span class="profilePicture">
+            <img src="ProfilePicture.jpeg" alt="">
+        </span>
+        
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="aboutTitle">About</h2>
+        <p class="aboutInfo">
+            I'm a fourth year university student enrolled in McGill University studying Computer Science.
+            I'm a Software Developer with a passion for algorithms and data. I'm experienced
+            in programming languages Java, Python, and JavaScript and have experience with databases with
+            both SQL and NoSQL. I'm interested in learning more about cloud computing and cloud technologies
+            and have already gotten hands on experience with GCP. When I'm not at my computer I enjoy lifting
+            weights, reading, playing soccer, and swimming.
+        </p>
+        <div class="logos">
+            <span class="firstRow">
+                <span class="python">
+                    <i class="devicon-python-plain colored"></i>
+                </span>
+                <span class="java">
+                    <i class="devicon-java-plain colored"></i>
+                </span>
+                <span class="JavaScript">
+                    <i class="devicon-javascript-plain colored"></i>
+                </span>
+            </span>
+            <span class="secondRow">
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-html5-plain-wordmark colored"></i>
+                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                <i class="devicon-c-plain colored"></i>
+            </span>
+            <span class="thirdRow">
+                <i class="devicon-bash-plain colored"></i>
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon-googlecloud-plain-wordmark colored"></i>
+            </span>
+
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="projectsTitle">Projects</h2>
+        <div class="rowProject1">
+            <div class="columnProjects">
+              <div class="descriptionProjects">
+                <img src="connect4Pic.PNG" alt="" style="width:100%", class="projectPics">
+                <h3>Connect 4 Bot</h3>
+                <p>Connect-4 game with a GUI in Python. Has a multiplayer and AI option. Programed AI using a minimax algorithm.</p>
+                <a href="https://github.com/Hussein-Kansoh/Connect-4-bot/blob/main/connect_4.py">Source Code</a>
+              </div>
+            </div>
+            <div class="columnProjects">
+                <div class="descriptionProjects">
+                  <img src="https://storage.googleapis.com/tfds-data/visualization/fig/fashion_mnist-3.0.1.png" alt="" style="width:100%", clas="projectPics">
+                  <h3>Fashion MNIST classifier</h3>
+                  <p> Implemented an MLP model, with one and two hidden layers which Performed classification on the Fashion- MNIST data set.
+                      Used gradient descent to find weights connecting the layers</p>
+                    <a href="https://github.com/Hussein-Kansoh/-Classification-Image-Data/blob/main/ImageClassification.ipynb">Source Code</a>
+                </div>
+              </div>
+        </div>
+        <div class="rowProject2">
+            <div class="columnProjects">
+              <div class="descriptionProjects">
+                <img src="sfsPic.PNG" alt="" style="width:100%", class="projectPics">
+                <h3>Simple File System</h3>
+                <p> design and implement a simple file system (SFS) that can be mounted by the user under a directory in 
+                    a linux enviornment.</p>
+                <a href="https://github.com/Hussein-Kansoh/OS-Simple-File-System/blob/main/sfs_api.c">Source Code</a>
+              </div>
+            </div>
+            <div class="columnProjects">
+                <div class="descriptionProjects">
+                    <img src="SudokoPic.PNG" alt="" style="width:100%", class="projectPics">
+                    <h3>Sudoku Solver</h3>
+                    <p>Program to solve modified version of sudoko where the board is not restricted to size 9X9 and the outlined regions are not restricted to be 3X3, 
+                        another feature comes from the fact that the same number cannot be adjacent to itself. Implemented in Java.</p>
+                    <a href="https://github.com/Hussein-Kansoh/algorithms-soduko-solver/blob/main/Game.java">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactMe" id="contactMe">
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Me</h2>
+              <p>Have any questions or want to work together?
+                Leave a message and I'll get back to you as soon as possible.
+            </p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="https://media.istockphoto.com/photos/businessman-using-laptop-computer-in-the-office-picture-id1137014758?k=20&m=1137014758&s=612x612&w=0&h=MZ6qFQ_GrelFNsxL6eN0uWJO9F1X9JuT61NxUH-cKps=" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="https://formsubmit.co/hussein.kansoh@mail.mcgill.ca" method="POST">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your Email..">
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Your Message.." style="height:170px"></textarea>
+                  <input href="index1.html" type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer>
+        <div class="footerLogo">
+            <a href="https://github.com/Hussein-Kansoh/" class="GitHubLogo">
+                <i class="devicon-github-original"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/hussein-kansoh-775b9022a/" class="LinkedInLogo">
+                <i class="devicon-linkedin-plain"></i>
+            </a>
+        </div>
+        <p>
+            hussein.kansoh@mail.mcgill.ca
+        </p>
+        <script src="index.js"></script>
+    </footer>
+</body>
+
+</html>
